@@ -22,5 +22,5 @@ function deepestChild() {
   the most deeply nested child element 
   from div#grand-node. */
   debugger
-  const temArray = document.queryElementById('grand-node')
+  const temArray = document.querySelectorAll('grand-node')
 }
