@@ -26,6 +26,7 @@ function deepestChild() {
   let nextChild = temArray.children[0]
   while (nextChild) {
     temArray = nextChild
-    nextChild = temArray.child
+    nextChild = temArray.children[0]
   }
+  return temArray
 }
